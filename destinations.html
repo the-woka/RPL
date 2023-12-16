@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Logo -->
+      <a href="#" class="logo"><img src="img/logo.png" /></a>
+
+      <!-- Navbar List -->
+      <nav class="navbar">
+        <a href="#destinasi">Destinasi</a>
+        <a href="#cerita">Cerita</a>
+        <a href="#ulasan">Ulasan</a>
+      </nav>
+
+      <!-- Profile -->
+      <div class="profile">
+        <i data-feather="search" class="search"></i>
+        <a href="#sign-up">Sign Up</a>
+        <a href="#login" class="special">Login</a>
+        <i data-feather="menu" class="menu" id="ham-menu"></i>
+      </div>
+
+      <!-- Search input -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Cari apa..." />
+        <i data-feather="search" class="search"></i>
+      </div>
+    </header>
+
+    <section class="bgphoto-destinations">
+      <main class="tagline-destinations">
+        <h1>
+          Menemukan keajaiban Indonesia, satu petualangan dalam satu waktu
+        </h1>
+      </main>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="img/logo.png" class="logo-footer" />
+          <p>"Unlock the Wanders of Indonesia with Jelajah"</p>
+          <div class="icon-sosmed"></div>
+          <a href="#">
+            <i data-feather="instagram"></i>
+          </a>
+          <a href="#">
+            <i data-feather="linkedin"></i>
+          </a>
+          <a href="#">
+            <i data-feather="facebook"></i>
+          </a>
+          <a href="#">
+            <i data-feather="twitter"></i>
+          </a>
+        </div>
+        <div class="col">
+          <h3>About</h3>
+          <a href="#">
+            <p>Technical Info</p>
+          </a>
+          <a href="#">
+            <p>Other Products</p>
+          </a>
+        </div>
+        <div class="col">
+          <h3>Contact Us</h3>
+          <p>Bandung, Indonesia</p>
+          <p>40111</p>
+          <p>jelajahindonesia@gmail.com</p>
+        </div>
+        <div class="col">
+          <h3>Subscribe Newletter</h3>
+          <div class="input-box">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="input-email"
+            />
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="lisensi">
+        <p>© 2023 Jelajah, All rights reserved</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

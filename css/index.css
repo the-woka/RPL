@@ -437,7 +437,7 @@ footer {
 }
 
 .input-box button {
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-weight: 700;
   padding: 4px;
   background: linear-gradient(45deg, #a8e6ff, #58bfff, #009eff);
@@ -450,6 +450,25 @@ footer {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 25px;
+}
+
+/* Destinations.html */
+.bgphoto-destinations {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/destination-cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bgphoto-destinations .tagline-destinations {
+  width: 100%;
+  padding: 0.5rem 7%;
+  text-align: center;
+  font-size: 3rem;
+  color: var(--background);
 }
 
 /* media queries */
