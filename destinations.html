@@ -40,6 +40,7 @@
       </div>
     </header>
 
+    <!-- BGphoto Section start -->
     <section class="bgphoto-destinations">
       <main class="tagline-destinations">
         <h1>
@@ -47,6 +48,49 @@
         </h1>
       </main>
     </section>
+    <!-- BGPhoto Section End -->
+
+    <!-- Input search starts -->
+    <div class="search-filter">
+      <div class="search-form-destinations">
+        <input
+          type="search"
+          id="search-box"
+          placeholder="Cari tempat, hotel, atau restoran"
+        />
+        <i data-feather="search" class="search-destination"></i>
+      </div>
+      <div class="filter">
+        <div class="dropdown">
+          <label>Saring berdasarkan jenis tempat</label>
+          <div class="select">
+            <span class="selected">Semua jenis</span>
+            <i data-feather="chevron-down" class="caret"></i>
+          </div>
+          <ul class="option">
+            <li>Semua jenis</li>
+            <li>Pantai</li>
+            <li>Budaya</li>
+            <li>Gunung</li>
+            <li>Sejarah</li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <label>Sortir dengan</label>
+          <div class="select">
+            <span class="selected">Paling populer</span>
+            <i data-feather="chevron-down" class="caret"></i>
+          </div>
+          <ul class="option">
+            <li>Paling populer</li>
+            <li>Paling disukai</li>
+            <li>Paling hemat</li>
+            <li>Paling baru</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- List search ends -->
 
     <footer>
       <div class="row">
@@ -102,5 +146,7 @@
     <script>
       feather.replace();
     </script>
+
+    <script src="./js/destinations.js"></script>
   </body>
 </html>
