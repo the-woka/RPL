@@ -237,9 +237,9 @@ header .menu,
 
 .image-container {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
   width: 100%;
   padding: 0.5rem 7%;
 }
@@ -249,7 +249,6 @@ header .menu,
 }
 
 .gambar-rencana {
-  width: 360px;
   border-radius: 30px;
 }
 
@@ -272,10 +271,10 @@ header .menu,
 }
 
 .carousel img {
-  width: 360px;
+  width: 30rem;
   border-radius: 30px;
   object-fit: cover;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .carousel p {
@@ -298,7 +297,7 @@ header .menu,
 }
 
 .pencarian .kotak-pencarian {
-  padding: 10px 100px;
+  padding: 1rem 10rem;
   border-radius: 10px;
   margin-right: 20px;
   border: var(--font-title) solid 1px;
@@ -326,10 +325,10 @@ header .menu,
 }
 
 .carousel-cerita img {
-  width: 540px;
+  width: 45rem;
   border-radius: 30px;
   object-fit: cover;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .carousel-cerita p {
