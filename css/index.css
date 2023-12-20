@@ -318,7 +318,7 @@ header .menu,
   padding: 0.5rem 0 0.5rem 7%;
 }
 
-.wrapper-cerita .carousel-cerita {
+.carousel-cerita {
   white-space: nowrap;
   display: flex;
   overflow: hidden;
@@ -453,24 +453,35 @@ footer {
 
 /* Destinations.html */
 .bgphoto-destinations {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  background-image: url(../img/destination-cover.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  position: relative;
+  height: 80vh;
 }
 
 .bgphoto-destinations .tagline-destinations {
+  position: relative;
   width: 100%;
-  padding: 0.5rem 7%;
-  text-align: center;
-  font-size: 3rem;
-  color: var(--background);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Destination Page */
+.tagline-destinations img {
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.tagline-destinations h1 {
+  position: absolute;
+  bottom: 30%;
+  margin: 0;
+  text-align: center;
+  padding: 0.5rem 7%;
+  font-size: 4rem;
+  color: var(--background);
+  z-index: 1;
+}
 
 .search-filter {
   padding: 0.5rem 7%;
@@ -613,6 +624,84 @@ footer {
 
 .pagination li.active {
   background-image: linear-gradient(45deg, #a8e6ff, #58bfff, #009eff);
+}
+
+/* Destination.html */
+
+.tagline-destinations .unfill-text {
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--background);
+  font-size: 10rem;
+}
+
+.description {
+  text-align: center;
+  padding: 0.5rem 20%;
+  margin: 5rem 0 5rem 0;
+  display: block;
+}
+
+.description h1 {
+  font-size: 4.5rem;
+  color: var(--link);
+}
+
+.description h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.description > p {
+  text-align: justify;
+}
+
+.attractions {
+  position: relative;
+  padding: 0.5rem 7%;
+  display: block;
+}
+
+.attractions > h3 {
+  color: var(--link);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.title-attractions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.title-attractions h1 {
+  font-size: 2.7rem;
+}
+
+.attractions .image-container {
+  padding: 0.5rem 0;
+  margin-top: 2rem;
+}
+
+.button-atraksi {
+  text-align: center;
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.button-atraksi a {
+  padding: 0.8rem;
+  border: 1px solid var(--link);
+  border-radius: 5rem;
+}
+
+.title-attractions .semua-cerita {
+  padding: 1rem;
+  border: 1px solid var(--link);
+  border-radius: 5rem;
 }
 
 /* media queries */
