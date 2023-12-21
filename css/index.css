@@ -704,6 +704,79 @@ footer {
   border-radius: 5rem;
 }
 
+/* Package.html */
+
+.header-package {
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  right: 0;
+  z-index: 1000;
+  padding: 0.5rem 7%;
+}
+
+.header-package a {
+  color: var(--font-title);
+  background-color: var(--background);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.description .review-sold {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-sold span {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.review-sold p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-sold b:nth-child(2) {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.review-sold b:nth-child(odd) {
+  margin-right: 5px;
+}
+
+.highlight-package {
+  padding: 0.5rem 7%;
+}
+
+.highlight-package h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.highlight-package > ul {
+  width: 100%;
+  margin: 15px 0;
+  line-height: 1.5rem;
+}
+
+.highlight-package > ul > li {
+  list-style-type: disc;
+  margin-left: 3%;
+}
+
+.highlight-package a {
+  color: var(--link);
+}
+
+.highlight-package a:hover {
+  text-decoration: underline;
+}
+
 /* media queries */
 
 @media (max-width: 991px) {
