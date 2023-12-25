@@ -1,0 +1,288 @@
+.nav1 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navicon {
+    width: 28px;
+    height: 28px;
+}
+.navside {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navside1 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #FFF;
+}
+.navlogin {
+    display: flex;
+    width: 167px;
+    height: 61px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bg-img1 {
+    width: 576px;
+    height: 1117px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.fonta {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fontb {
+    color: #404040;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.one {
+    color: #4169E1;
+}
+.one::placeholder {
+    color: #4169E1;
+}
+.navview {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+.navviewfield {
+    display: flex;
+    width: 270px;
+    height: 69px;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid #4169E1;
+}
+.font1a {
+    color: #5B5B5B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.icon1 {
+    width: 11px;
+    height: 11px;
+    color: #767676;
+}
+.font1b {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.font1c {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;   
+    line-height: normal;
+}
+@media (min-width: 992px) {
+    .col-md-offset-1 {
+       margin-left: 4%; /* <- your value here */
+    }
+}
+.font1d {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+.pagination-outer{ text-align: center; }
+.pagination{
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    position: relative;
+}
+.pagination li a.page-link{
+    color: #000;    
+    background : #fff;
+    font-size: 24px;
+    font-weight: 500;
+    height: 58px;
+    width: 58px;
+    margin: 0 16px;
+    border-color: #5B5B5B;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0.4s;
+    padding: 14px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pagination li a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:hover,
+.pagination li.active a.page-link{
+    color: #fff;
+    background : var(--blue, linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%));
+    border-color: #fff;
+
+}
+.pagination li a.page-link:before,
+.pagination li a.page-link:after{
+    content: '';
+    background : var(--blue, linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%));
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in 0s;
+}
+.pagination li a.page-link:after{ transition: all 0.3s ease-in 0.2s; }
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:hover:before,
+.pagination li.active a.page-link:before,
+.pagination li a.page-link:hover:after,
+.pagination li a.page-link:focus:after,
+.pagination li.active a.page-link:hover:after,
+.pagination li.active a.page-link:after{
+    opacity: 0;
+    transform: scale(1);
+}
+@media only screen and (max-width: 480px){
+    .pagination{
+        font-size: 0;
+        display: inline-block;
+    }
+    .pagination li{
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 0;
+    }
+}
+.footer1 {
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.fontfoot1 {
+    color: #FFF;
+    font-size: 23.982px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot2 {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.fontfoot3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 490;
+    line-height: normal;
+    padding-bottom: 3%;
+}
+a{
+    text-decoration: none;
+}
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form p {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.bbb-wrapper .subcribe-form form {
+    max-width: 450px;
+    margin: 15px auto;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form #subscribe input {
+    width: 450px;
+    height: 59px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 30px;
+}
+.bbb-wrapper .subcribe-form #subscribe #subscribe-button {
+    height: 39px;
+    padding: 0 30px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.subscribe-message {
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 19px;
+}
+.color-bg{ 
+	background: #4DB7FE;
+}
+#subscribe-button:hover{
+    background: #2C3B5A;
+    color: #fff;
+}
