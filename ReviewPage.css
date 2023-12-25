@@ -1,0 +1,277 @@
+.font1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.font2 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.font3 {
+    color: #404040;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navanactive {
+    color: #707070;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navactive {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navicon {
+    width: 28px;
+    height: 28px;
+}
+.navside {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navlogin {
+    display: flex;
+    width: 167px;
+    height: 61px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.searchfield {
+    display: flex;
+    width: 912px;
+    height: 78px;
+    padding: 21px 46px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 80px;
+    border: 1px solid #AAA8A8;
+}
+.inputfield {
+    display: flex;
+    width: 300px;
+    height: 72px;
+    padding: 20px 32px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 80px;
+    border: 1px solid #4169E1;
+}
+.searchtext {
+    color: #AAA;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control::placeholder {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.imgdest {
+    width: 596px;
+    height: 491px;
+    margin-left: 60px;
+}
+.newulasan {
+    margin-right: 70px;
+}
+.one {
+    color: #AAA;
+}
+.two {
+    color: #4169E1;
+}
+.one::placeholder {
+    color: #AAA;
+}
+.two::placeholder {
+    color: #4169E1;
+}
+@media (min-width: 992px) {
+    .col-md-offset-1 {
+       margin-left: 15%; /* <- your value here */
+    }
+}
+.f1 {
+    color: #5B5B5B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.f2{
+    color: #000;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.f3{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+div.stars {
+    width: 270px;
+    display: inline-block;  
+}
+input.star { display: none; }
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #4169E1;
+    transition: all .2s;
+}
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+}
+input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+input.star-10:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+input.star-15:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+input.star-1:checked ~ label.star:before { color: #F62; }
+input.star-6:checked ~ label.star:before { color: #F62; }
+input.star-11:checked ~ label.star:before { color: #F62; }
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+#wrapper {
+    display: flex;
+}
+.rate {
+    color: #4169E1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 70px;
+    padding-left: 28px;
+}
+.footer1 {
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.fontfoot1 {
+    color: #FFF;
+    font-size: 23.982px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot2 {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.fontfoot3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 490;
+    line-height: normal;
+    padding-bottom: 3%;
+}
+a{
+    text-decoration: none;
+}
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form p {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.bbb-wrapper .subcribe-form form {
+    max-width: 450px;
+    margin: 15px auto;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form #subscribe input {
+    width: 450px;
+    height: 59px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 30px;
+}
+.bbb-wrapper .subcribe-form #subscribe #subscribe-button {
+    height: 39px;
+    padding: 0 30px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.subscribe-message {
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 19px;
+}
+.color-bg{ 
+	background: #4DB7FE;
+}
+#subscribe-button:hover{
+    background: #2C3B5A;
+    color: #fff;
+}

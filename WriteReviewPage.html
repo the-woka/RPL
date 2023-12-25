@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Review Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-    T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="WriteReviewPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" />
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light bg-white mnav">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-6">
+                    <div class="back-button">
+                        <button type="button" class="btn btn-link" href="#"><span class="bi bi-arrow-left border border-white rounded-circle p-3" style="font-size: 34px; color: #092C4C;"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Content -->
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-center pt-1">
+                <div class="col">
+                    <br><br><br>
+                    <p class="font1 text-center fw-bolder pt-5">Bagikan Pengalaman Perjalanan<br>Anda dalam bentuk cerita</p>
+                    <br><br><br>
+                </div>
+                <form action="">
+                    <div class="p-3 rounded rounded-pill mx-auto mb-4 searchfield">
+                        <div class="input-group">
+                            <input type="search" placeholder="Apa yang ingin Anda ulas?" aria-describedby="button-addon1" class="form-control form-control-lg border-0 bg-white one">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search" style="font-size: 32px; color: #4169E1;"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <p class="pt-5 mb-4 text-white">orem ipsum dolor sit amet consectetur, adipisicing elit. Ut, similique!</p>
+                <p class="pt-3 mb-2 text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque?</p>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="d-inline font2 pt-3 text-lg-start ms-5">Tempat terbaik dengan ulasan</p>
+                        <p class="font3 pt-3 text-lg-start ms-5">Wisatawan ingin melihat lebih banyak ulasan tentang tempat-tempat ini.</p><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-3 ms-5 mb-5">
+                    <form action="/file/post" class="dropzone dz-clickable borderfileupload border-0 p-3" style="background-color: #E3E3E3;">
+                        <div class="dz-default dz-message text-center">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="107" height="107" viewBox="0 0 107 107" fill="none">
+                                <path d="M53.5001 78.0208C59.073 78.0208 63.8107 76.0696 67.7133 72.167C71.6158 68.2645 73.5656 63.5283 73.5626 57.9583C73.5626 52.3854 71.6113 47.6477 67.7088 43.7452C63.8063 39.8426 59.07 37.8929 53.5001 37.8958C47.9272 37.8958 43.1895 39.8471 39.2869 43.7496C35.3844 47.6522 33.4346 52.3884 33.4376 57.9583C33.4376 63.5312 35.3889 68.269 39.2914 72.1715C43.1939 76.074 47.9301 78.0238 53.5001 78.0208ZM53.5001 73.5625L48.5959 62.8625L37.8959 57.9583L48.5959 53.0542L53.5001 42.3542L58.4043 53.0542L69.1043 57.9583L58.4043 62.8625L53.5001 73.5625ZM17.8334 93.625C15.3813 93.625 13.2815 92.7512 11.5338 91.0035C9.78613 89.2558 8.91378 87.1574 8.91676 84.7083V31.2083C8.91676 28.7563 9.79059 26.6564 11.5383 24.9087C13.2859 23.161 15.3843 22.2887 17.8334 22.2917H31.8772L40.1251 13.375H66.8751L75.123 22.2917H89.1668C91.6188 22.2917 93.7187 23.1655 95.4664 24.9132C97.2141 26.6608 98.0864 28.7592 98.0834 31.2083V84.7083C98.0834 87.1604 97.2096 89.2603 95.4619 91.008C93.7143 92.7556 91.6159 93.628 89.1668 93.625H17.8334Z" fill="#040404"/></svg></i>
+                        </div>
+                    </form>
+                    <script>
+                        Dropzone.autoDiscover = false;
+                        // Dropzone configuration
+                        var myDropzone = new Dropzone(".dropzone", {
+                            url: "/file/post", 
+                            paramName: "file",
+                            maxFilesize: 2, // MB
+                            maxFiles: 10,
+                            acceptedFiles: 'image/*',
+                            dictDefaultMessage: "Drag files here or click to upload.",
+                            clickable: true 
+                        });
+                    </script>
+                </div>
+                <div class="col-6 col-md-offset-1">
+                    <div>
+                        <label for="exampleFormControlInputTitle" class="form-label font1input">Judul ulasan Anda</label>
+                        <input type="Reviewtitle" class="form-control borderinputtitle mt-2 three form-control-lg" id="exampleFormControlInputTitle" placeholder="Ringkas Perjalanan Perjalanan Anda">
+                    </div>
+                    <div>
+                        <label for="exampleFormControlInputReview" class="form-label font1input mt-5">Ulasan Anda</label>
+                        <input type="Reviewtitle" class="form-control borderinputtitle rounded mt-2 three form-control-lg" id="exampleFormControlInputReview" placeholder="Ulasan terperinci tentang Perjalanan Perjalanan Anda. Wisatawan akan senang mengetahui pengalaman Anda">
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <div>
+                                <label for="exampleFormControlInputLocation" class="form-label font1input">Lokasi</label>
+                                <input type="Reviewtitle" class="form-control borderinputtitle1 mt-2 three form-control-lg" id="exampleFormControlInputLocation" placeholder="Masukkan Lokasi Perjalanan">
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-offset-2 mt-1">
+                          <label for="exampleFormControlInputTime" class="form-label font1input">Kapan Anda bepergian?</label>
+                            <select name="" id="" class="form-select selectborder mt-1" aria-label="Default select example" style="font-size: 20px; color: #5B5B5B; border-color: solid#B4B4B4;">
+                              <option selected>Pilih Salah Satu</option>
+                              <option value="1">Januari</option>
+                              <option value="2">Februari</option>
+                              <option value="3">Maret</option>
+                              <option value="4">April</option>
+                              <option value="5">Mei</option>
+                              <option value="6">Juni</option>
+                              <option value="7">Juli</option>
+                              <option value="8">Agustus</option>
+                              <option value="9">September</option>
+                              <option value="10">Oktober</option>
+                              <option value="11">November</option>
+                              <option value="12">Desember</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-11">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input checkbox1" value="" id="flexCheckDefault">
+                                <label for="flexCheckDefault" class="form-check-label font4 ps-4 mb-5 d-block">
+                                    Saya menyatakan bahwa informasi dalam ulasan ini semata-mata didasarkan pada pengalaman saya sendiri dengan produk atau layanan yang dimaksud. Saya juga membuktikan bahwa saya tidak memiliki afiliasi pribadi atau profesional dengan bisnis yang bersangkutan dan belum diberi insentif atau pembayaran apa pun dari bisnis untuk menulis ulasan ini. Saya menyadari bahwa ulasan palsu sangat dilarang di Jelajah
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <button type="button" class="btn btn-primary rounded-pill navcont navbutt mb-5">
+                                Kirim Ulasan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+    </section>
+    <!-- End of Content -->
+    <!-- Footer -->
+    <div class="container my-5"></div>
+    <footer class="footer1 text-center text-lg-start text-white">
+      <div class="container-fluid p-5">
+        <div class="row my-4">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="d-flex mb-4 mx-auto" style="width: 239.402pxpx; height: 80.191px;">
+              <a href="#"><img src="Rectangle 36.png" alt="#"></a>
+            </div>
+            <p class="fontfoot1">"Unlock the Wonders of<br>Indonesia with Jelajah"</p><br>
+            <ul class="list-unstyled d-flex flex-row">
+              <li>
+                <a class="text-white pe-2" href="#">
+                  <i class="bi bi-instagram" style="font-size: 30px;"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#">
+                  <i class="bi bi-linkedin" style="font-size: 30px;"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#">
+                  <i class="bi bi-facebook" style="font-size: 30px;"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#">
+                  <i class="bi bi-twitter" style="font-size: 30px;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <p class="fontfoot2 mb-3">About</p>
+            <ul class="list-unstyled">
+              <li class="mb-2 py-2">
+                <a class="fontfoot3">Technical Info</a>
+              </li>
+              <li class="mb-2">
+                <a class="fontfoot3">Other Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <p class="fontfoot2 mb-3">Contact Us</p>
+            <ul class="list-unstyled">
+              <li class="mb-2 py-2">
+                <a class="fontfoot3">Bandung, Indonesia</a>
+              </li>
+              <li class="mb-2">
+                <a class="fontfoot3">40111</a>
+              </li>
+              <li class="mb-2 pt-2">
+                <a class="fontfoot3">jelajahindonesia@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="bbb-wrapper fl-wrap">
+              <div class="subcribe-form fl-wrap">
+                <p class="fontfoot4">
+                  Subscribe Newsletter                
+                </p>
+                <form id="subscribe" novalidate="true" class="py-1">
+                  <input class="enteremail" name="EMAIL" id="subscribe-email" placeholder="Enter your email" spellcheck="false" type="text">
+                  <button type="submit" id="subscribe-button" class="subscribe-button color-bg">Subscribe</button>
+                  <label for="subscribe-email" class="subscribe-message"></label>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center fontfoot4">
+        © 2023 Jelajah.
+        <a class="text-white fontfoot4">All rights reserved</a>
+      </div>
+    </footer>
+  </div>
+    <!-- End of Footer -->
+</body>
+</html>
