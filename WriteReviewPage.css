@@ -1,0 +1,239 @@
+.mnav {
+    padding-left: 132px;
+    padding-top: 92px;
+}
+.font1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.font2 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.font3 {
+    color: #404040;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.font4 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.one {
+    color: #AAA;
+}
+.one::placeholder {
+    color: #AAA;
+}
+.searchfield {
+    display: flex;
+    width: 912px;
+    height: 78px;
+    padding: 21px 46px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 80px;
+    border: 1px solid #AAA8A8;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control::placeholder {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.borderfileupload {
+    display: flex;
+    width: 596px;
+    height: 491px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+@media (min-width: 992px) {
+    .col-md-offset-1 {
+       margin-left: 12%; /* <- your value here */
+    }
+}
+@media (min-width: 992px) {
+    .col-md-offset-2 {
+       margin-left: 20%; /* <- your value here */
+    }
+}
+
+.font1input {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 490px;
+    line-height: normal;
+}
+.borderinputtitle {
+    display: flex;
+    width: 900px;
+    padding: 24px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #B4B4B4;
+}
+.borderinputtitle1 {
+    display: flex;
+    width: 352px;
+    padding: 24px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #B4B4B4;
+}
+.one {
+    color: #AAA;
+}
+.one::placeholder {
+    color: #AAA;
+}
+.three {
+    color: #5B5B5B;
+}
+.three::placeholder {
+    color: #5B5B5B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.selectborder {
+    display: flex;
+    width: 472px;  
+    padding: 24px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #B4B4B4;
+}
+.checkbox1 {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1.5px solid #000;
+}
+.navbutt {
+    display: flex;
+    width: 271px;
+    height: 72px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navcont {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer1 {
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.fontfoot1 {
+    color: #FFF;
+    font-size: 23.982px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot2 {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.fontfoot3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 490;
+    line-height: normal;
+    padding-bottom: 3%;
+}
+a{
+    text-decoration: none;
+}
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form p {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.bbb-wrapper .subcribe-form form {
+    max-width: 450px;
+    margin: 15px auto;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form #subscribe input {
+    width: 450px;
+    height: 59px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 30px;
+}
+.bbb-wrapper .subcribe-form #subscribe #subscribe-button {
+    height: 39px;
+    padding: 0 30px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.subscribe-message {
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 19px;
+}
+.color-bg{ 
+	background: #4DB7FE;
+}
+#subscribe-button:hover{
+    background: #2C3B5A;
+    color: #fff;
+}

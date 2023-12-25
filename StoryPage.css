@@ -1,0 +1,151 @@
+.mnav {
+    padding-left: 132px;
+    padding-top: 60px;
+}
+.navbutt {
+    border-color: #FFF;
+}
+.elmnav {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.bg-img {
+    width: 1903px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.button {
+    background-color: #FFF;
+}
+.fonta {
+    color: #4D4D4D;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.fontb {
+    color: #5B5B5B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.icon1 {
+    width: 11px;
+    height: 11px;
+    color: #767676;
+}
+.fontc {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.fontd {
+    color: #000;
+    text-align: justify;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.footer1 {
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.fontfoot1 {
+    color: #FFF;
+    font-size: 23.982px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot2 {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.fontfoot3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+.fontfoot4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 490;
+    line-height: normal;
+    padding-bottom: 3%;
+}
+a{
+    text-decoration: none;
+}
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form p {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+}
+.bbb-wrapper .subcribe-form form {
+    max-width: 450px;
+    margin: 15px auto;
+    position: relative;
+}
+.bbb-wrapper .subcribe-form #subscribe input {
+    width: 450px;
+    height: 59px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 30px;
+}
+.bbb-wrapper .subcribe-form #subscribe #subscribe-button {
+    height: 39px;
+    padding: 0 30px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(236deg, #009EFF -2.78%, #58BFFF 26.99%, #A8E6FF 106.85%);
+}
+.subscribe-message {
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 19px;
+}
+.color-bg{ 
+	background: #4DB7FE;
+}
+#subscribe-button:hover{
+    background: #2C3B5A;
+    color: #fff;
+}
