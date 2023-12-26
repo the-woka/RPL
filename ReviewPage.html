@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page Jelajah</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-    T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="ReviewPage.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="ReviewPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar sticky-top navbar-light bg-light bg-white py-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="https://getbootstrap.com/docs/5.3/components/navbar/">
+        <img src="assets/logo_jelajah.png" width="158px" height="80px">Jelajah APPSSSSSSSISSSSSSSSS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="navanactive nav-link" aria-current="page" href="#">Destinasi</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class ="navanactive nav-link" href="#">Cerita</a>
+          </li>
+          <li class="nav-item">
+            <a class="navactive nav-link active" href="#">Ulasan</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+          <ul class="navbar-nav sm-icons">
+            <li class="nav-item my-2 mx-3">
+              <a class="nav-link my-1 mx-3" href="#">
+                <i class="bi bi-search" style="font-size: 28px;"></i>
+              </a>
+            </li>
+          </ul>
+          <li class="nav-item my-3 mx-3">
+            <a class="navside nav-link fw-bold" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">
+              <button type="button" class="btn btn-outline-dark rounded-pill navside navlogin">Login</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navbar -->
+  <!-- Content -->
+  <section>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col">
+          <br><br><br>
+          <p class="font1 text-center fw-bolder pt-5">Bagikan Pengalaman Perjalanan<br>Anda dalam bentuk cerita</p>
+          <br><br><br><br>
+        </div>
+        <form action="">
+          <div class="p-3 rounded rounded-pill mx-auto mb-4 searchfield">
+            <div class="input-group">
+              <input type="search" placeholder="Apa yang ingin Anda ulas?" aria-describedby="button-addon1" class="form-control form-control-lg border-0 bg-white one">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search" style="font-size: 32px; color: #4169E1;"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <p class="pt-5 mb-4 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, similique!
+        </p>
+        <p class="pt-3 mb-2 text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque?</p>
+        <div class="row">
+          <div class="col-9">
+            <p class="d-inline font2 pt-3 text-lg-start ms-5">
+              Tempat terbaik dengan ulasan
+            </p>
+            <p class="font3 pt-3 text-lg-start ms-5">Wisatawan ingin melihat lebih banyak ulasan tentang tempat-tempat ini.</p><br><br>
+          </div>
+          <div class="col-3">
+            <form action="">
+              <div class="p-3 rounded rounded-pill mb-4 newulasan inputfield">
+                <div class="input-group">
+                  <div class="input-group-append">
+                    <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i><svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                      <path d="M4 23.5V28.5H9L23.7467 13.7533L18.7467 8.75333L4 23.5ZM27.6133 9.88666C27.7369 9.76331 27.835 9.61679 27.9019 9.45549C27.9688 9.29419 28.0033 9.12128 28.0033 8.94666C28.0033 8.77204 27.9688 8.59913 27.9019 8.43783C27.835 8.27653 27.7369 8.13001 27.6133 8.00666L24.4933 4.88666C24.37 4.76306 24.2235 4.66499 24.0622 4.59808C23.9009 4.53117 23.728 4.49673 23.5533 4.49673C23.3787 4.49673 23.2058 4.53117 23.0445 4.59808C22.8832 4.66499 22.7367 4.76306 22.6133 4.88666L20.1733 7.32666L25.1733 12.3267L27.6133 9.88666Z" fill="#4169E1"/>
+                    </svg></i></button>
+                  </div>
+                  <input type="" placeholder="Tulis Ulasan Baru" aria-describedby="button-addon1" class="form-control form-control-lg border-0 bg-white two">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-3">
+          <img src="assets/ReviewPage1.png" class="imgdest" alt="#" href="#">
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores est non error esse, illo, repudiandae ullam expedita corporis itaque facilis placeat eligendi voluptas laborum!</p>
+          <img src="assets/ReviewPage2.png" class="imgdest" alt="#" href="#">
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores est non error esse, illo, repudiandae ullam expedita corporis itaque facilis placeat eligendi voluptas laborum!</p>
+          <img src="assets/ReviewPage3.png" class="imgdest" alt="#" href="#">
+        </div>
+        <div class="col-6 col-md-offset-1 pt-5">
+          <p class="text-white mb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, explicabo.</p>
+          <p class="f1">Pulau Komodo , NTT</p>
+          <p class="f2 pb-4">Perjalanan Indah ke Tanah Komodo</p>
+          <p class="f3 pb-4">pulau komodo adalah negara yang beragam dan mempesona dengan sejarah yang kaya, budaya yang dinamis, dan pemandangan yang menakjubkan.
+          </p>
+          <div class="stars">
+            <form action="">
+              <div class="wrapper"></div>
+                <input class="star star-5" id="star-5" type="radio" name="star"/>
+                <label class="star star-5" for="star-5"></label>
+                <input class="star star-4" id="star-4" type="radio" name="star"/>
+                <label class="star star-4" for="star-4"></label>
+                <input class="star star-3" id="star-3" type="radio" name="star"/>
+                <label class="star star-3" for="star-3"></label>
+                <input class="star star-2" id="star-2" type="radio" name="star"/>
+                <label class="star star-2" for="star-2"></label>
+                <input class="star star-1" id="star-1" type="radio" name="star"/>
+                <label class="star star-1" for="star-1"></label>
+              </div>
+              <button type="submit" class="btn btn-close-white text-primary rate">Click to rate</button>
+            </form>
+            <br><br><br><br><br><br><br><br><br><br><br>
+          <p class="text-white mb-1"></p>
+          <p class="f1">Kepulauan Derawan, Kaltim</p>
+          <p class="f2 pb-4">Perjalanan melintasi Kepulauan Derawan</p>
+          <p class="f3 pb-4">kepulauan Derawan adalah rumah bagi pemandangan alam yang menakjubkan kita bisa melihat biru nya laut dan hijaunya pemandangan hutan semua menjadi satu di kepulauan Derawan.
+          </p>
+          <div class="stars">
+            <form action="">
+              <div class="wrapper"></div>
+                <input class="star star-10" id="star-10" type="radio" name="star"/>
+                <label class="star star-10" for="star-10"></label>
+                <input class="star star-9" id="star-9" type="radio" name="star"/>
+                <label class="star star-9" for="star-9"></label>
+                <input class="star star-8" id="star-8" type="radio" name="star"/>
+                <label class="star star-8" for="star-8"></label>
+                <input class="star star-7" id="star-7" type="radio" name="star"/>
+                <label class="star star-7" for="star-7"></label>
+                <input class="star star-6" id="star-6" type="radio" name="star"/>
+                <label class="star star-6" for="star-6"></label>
+              </div>
+              <button type="submit" class="btn btn-close-white text-primary rate">Click to rate</button>
+            </form>
+            <br><br><br><br><br><br><br><br><br>
+          <p class="text-white mb-1"></p>
+          <p class="f1">Batu papan, Papua</p>
+          <p class="f2 pb-4">Tempat Terbaik untuk dikunjungi di Papua</p>
+          <p class="f3 pb-4">Baru-baru ini saya menghabiskan dua minggu di batu papan, papua dan itu adalah salah satu perjalanan paling berkesan dalam hidup saya. Orang-orangnya sangat ramah dan menyambut, dan saya kagum dengan keindahan pemandangan alamnya. 
+          </p>
+          <div class="stars">
+            <form action="">
+              <div class="wrapper"></div>
+                <input class="star star-15" id="star-15" type="radio" name="star"/>
+                <label class="star star-15" for="star-15"></label>
+                <input class="star star-14" id="star-14" type="radio" name="star"/>
+                <label class="star star-14" for="star-14"></label>
+                <input class="star star-13" id="star-13" type="radio" name="star"/>
+                <label class="star star-13" for="star-13"></label>
+                <input class="star star-12" id="star-12" type="radio" name="star"/>
+                <label class="star star-12" for="star-12"></label>
+                <input class="star star-11" id="star-11" type="radio" name="star"/>
+                <label class="star star-11" for="star-11"></label>
+              </div>
+              <button type="submit" class="btn btn-close-white text-primary rate">Click to rate</button>
+            </form>
+        </div>
+      </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </section>  
+  <!-- End of Content -->
+  <!-- Footer -->
+  <div class="container my-5"></div>
+    <footer class="footer1 text-center text-lg-start text-white">
+      <div class="container-fluid p-5">
+        <div class="row my-4">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="d-flex mb-4 mx-auto" style="width: 239.402pxpx; height: 80.191px;">
+              <a href="#"><img src="assets/JelajahWithText.png" alt="#"></a>
+            </div>
+            <p class="fontfoot1">"Unlock the Wonders of<br>Indonesia with Jelajah"</p><br>
+            <ul class="list-unstyled d-flex flex-row">
+              <li>
+                <a class="text-white pe-2" href="#">
+                  <i class="bi bi-instagram" style="font-size: 30px;"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#">
+                  <i class="bi bi-linkedin" style="font-size: 30px;"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#">
+                  <i class="bi bi-facebook" style="font-size: 30px;"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#">
+                  <i class="bi bi-twitter" style="font-size: 30px;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <p class="fontfoot2 mb-3">About</p>
+            <ul class="list-unstyled">
+              <li class="mb-2 py-2">
+                <a class="fontfoot3">Technical Info</a>
+              </li>
+              <li class="mb-2">
+                <a class="fontfoot3">Other Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <p class="fontfoot2 mb-3">Contact Us</p>
+            <ul class="list-unstyled">
+              <li class="mb-2 py-2">
+                <a class="fontfoot3">Bandung, Indonesia</a>
+              </li>
+              <li class="mb-2">
+                <a class="fontfoot3">40111</a>
+              </li>
+              <li class="mb-2 pt-2">
+                <a class="fontfoot3">jelajahindonesia@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="bbb-wrapper fl-wrap">
+              <div class="subcribe-form fl-wrap">
+                <p class="fontfoot4">
+                  Subscribe Newsletter                
+                </p>
+                <form id="subscribe" novalidate="true" class="py-1">
+                  <input class="enteremail" name="EMAIL" id="subscribe-email" placeholder="Enter your email" spellcheck="false" type="text">
+                  <button type="submit" id="subscribe-button" class="subscribe-button color-bg">Subscribe</button>
+                  <label for="subscribe-email" class="subscribe-message"></label>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center fontfoot4">
+        © 2023 Jelajah.
+        <a class="text-white fontfoot4">All rights reserved</a>
+      </div>
+    </footer>
+  </div>  
+  <!-- End of Footer -->
+  
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
