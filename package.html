@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
@@ -53,42 +53,48 @@
 
     <div class="title-wrapper">
       <div class="title">
-        <h1>Pencarian Terbaru Anda</h1>
-        <p>Berikut beberapa tempat yang telah Anda telusuri</p>
+        <h1 id="titlePackage">Atur Perjalananmu</h1>
+        <p>Maksimalkan Pengalaman Perjalanan Anda di 2023</p>
       </div>
     </div>
-    <div class="history">
-      <div class="pencarian">
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
-        <a href="#" class="tanggal">
-          <h3>Tempat</h3>
-          <p>Provinsi</p>
-        </a>
+    
+    <div class="tabbed-day">
+      <ul class="ticket" aria-labelledby="titlePackage">
+        <li><a class="ticketDay" href="#first" id="currentDay">
+          <p><span>Tanggal</span><br> Hari</p>
+        </a></li>
+        <li><a class="ticketDay" href="#second" id="secondDay">
+          <p><span>Tanggal</span><br> Hari</p>
+        </a></li>
+        <li><a class="ticketDay" href="#third" id="thirdDay">
+          <p><span>Tanggal</span><br> Hari</p>
+        </a></li>
+        <li><a class="ticketDay" href="#forth" id="forthDay">
+          <p><span>Tanggal</span><br> Hari</p>
+        </a></li>
+        <li><a class="ticketDay" href="#fifth" id="fifthDay">
+          <p><span>Tanggal</span><br> Hari</p>
+        </a></li>
+      </ul>
+      <div class="infoPaket">
+        <div aria-labelledby="currentDay" id="first">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia accusantium, iure consectetur similique vel dolorem sit at enim doloribus iste ab placeat suscipit numquam dolore. Earum cumque dolorum nihil.</p>
+        </div>
+        <div aria-labelledby="secondDay" id="second">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia accusantium, iure consectetur similique vel dolorem sit at enim doloribus iste ab placeat suscipit numquam dolore. Earum cumque dolorum nihil.</p>
+        </div>
+        <div aria-labelledby="thirdDay" id="third">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia accusantium, iure consectetur similique vel dolorem sit at enim doloribus iste ab placeat suscipit numquam dolore. Earum cumque dolorum nihil.</p>
+        </div>
+        <div aria-labelledby="forthDay" id="forth">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia accusantium, iure consectetur similique vel dolorem sit at enim doloribus iste ab placeat suscipit numquam dolore. Earum cumque dolorum nihil.</p>
+        </div>
+        <div aria-labelledby="fifthDay" id="fifth">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia accusantium, iure consectetur similique vel dolorem sit at enim doloribus iste ab placeat suscipit numquam dolore. Earum cumque dolorum nihil.</p>
+        </div>
       </div>
     </div>
 
+    <script src="./js/package.js"></script>
   </body>
 </html>
