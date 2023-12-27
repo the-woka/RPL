@@ -876,17 +876,53 @@ footer {
   color: #ff0000;
 }
 
-.price-and-buy a {
+.price-and-buy button {
   padding: 1rem 5rem;
   background-color: #00cf6c;
   font-size: 1.3rem;
   border-radius: 1.5rem;
   color: var(--background);
+  cursor: pointer;
 }
 
-.price-and-buy a:hover {
+.price-and-buy button:hover {
   background-color: #ff7782;
 }
+
+.modal {
+  padding: 1em;
+  max-width: 50ch;
+  border: 0;
+  box-shadow: 0 0 1em rgb(0 0 0 / .3);
+  top: 40%;
+  left: 40%;
+
+  & > * {
+    margin: 0 0 0.5rem 0;
+  }
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+/* extra styling */
+
+.modal .button {
+  border: 0;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: #00cf6c;
+  color: var(--background);
+  border-radius: 1rem;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: none;
+}
+
 
 
 /* media queries */
