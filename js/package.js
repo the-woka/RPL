@@ -2,6 +2,9 @@ const tabbedDay = document.querySelector(".tabbed-day");
 const tabList = tabbedDay.querySelector(".ticket");
 const tabButtons = tabList.querySelectorAll(".ticketDay");
 const tabPanels = tabbedDay.querySelectorAll(".infoPaket > div");
+const modal = document.querySelector("#modal");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
 
 tabList.setAttribute("role", "tablist");
 
@@ -48,31 +51,10 @@ function switchTab(newTab) {
   newTab.setAttribute("aria-selected", true);
 }
 
-// Menangani setiap tombol "Beli"
-// Menggabungkan kedua potongan kode
-const closeButtons = document.querySelectorAll('.close-button');
-const buyButtons = document.querySelectorAll('.open-button');
-
-// Menangani setiap tombol "Beli"
-buyButtons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    const modalId = `modal${index + 1}`; // Membuat ID modal yang sesuai
-    const modal = document.getElementById(modalId);
-    
-    if (modal) {
-      modal.showModal(); // Tampilkan modal yang sesuai
-    }
-  });
+openModal.addEventListener("click", () => {
+  modal.showModal();
 });
 
-// Menangani setiap tombol "Batal" atau "Close"
-closeButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    const modal = button.closest('.modal'); // Mendapatkan modal terdekat dari tombol yang ditekan
-    
-    if (modal) {
-      modal.close(); // Menutup modal
-    }
-  });
+closeModal.addEventListener("click", () => {
+  modal.close();
 });
-
