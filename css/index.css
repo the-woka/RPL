@@ -1,3 +1,15 @@
+[aria-selected = "true"] {
+  background-color: #ff0000;
+  color: var(--background);
+  border-radius: 1rem;
+}
+
+[aria-selected = "false"] {
+  background-color: #dce1eb;
+  color: var(--font-title);
+  border-radius: 1rem;
+}
+
 *,
 *::before,
 *::after {
@@ -455,6 +467,7 @@ footer {
 .bgphoto-destinations {
   position: relative;
   height: 80vh;
+  filter: brightness(80%);
 }
 
 .bgphoto-destinations .tagline-destinations {
@@ -605,7 +618,7 @@ footer {
 }
 
 .city:hover {
-  text-decoration: underline;
+  text-decoration: underline var(--font-desc);
   transform: translateY(-10px);
 }
 
@@ -709,10 +722,10 @@ footer {
 /* Package.html */
 
 .header-package {
+  width: 100px;
+  left: 0;
   position: fixed;
-  width: 100%;
-  top: 50px;
-  right: 0;
+  top: 2rem;
   z-index: 1000;
   padding: 0.5rem 7%;
 }
@@ -721,7 +734,7 @@ footer {
   color: var(--font-title);
   background-color: var(--background);
   padding: 1rem;
-  border-radius: 50%;
+  border-radius: 50% 50%;
 }
 
 .description .review-sold {
@@ -781,36 +794,100 @@ footer {
 
 .tabbed-day {
   padding: 0.5rem 7%;
+  display: block;
 }
 
 .tabbed-day .ticket {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); 
-  gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0;
 }
 
 .ticket li .ticketDay {
+  position: relative;
   text-align: center;
-}
-
-.ticket li .ticketDay p {
-  background-color: #e8e6e6;
-  color: var(--font-desc);
-  padding: 1rem 0;
-  border-radius: 1rem;
-  font-size: 1.3rem;
   font-weight: 700;
-}
-
-.ticket li .ticketDay p span {
-  font-size: 1.8rem;
+  padding: 2rem 3rem;
 }
 
 .horizontal-dotted-line {
-  margin: 1rem 0;
+  position: relative;
+  margin: 4rem 0 3rem;
   border-bottom: 10px dotted #e8e6e6;
   width: 100%;
 }
+
+.infoPaket .body-ticket {
+  background-color: var(--background);
+  width: 100%;
+  border-radius: 2rem;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 1rem #dce1eb;
+  margin-bottom: 3rem;
+}
+
+.body-ticket > p {
+  font-size: 1.3rem;
+}
+
+.body-ticket p {
+  margin-bottom: 2rem;
+}
+
+.body-ticket .deskripsi-tiket {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deskripsi-tiket p {
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+}
+
+.deskripsi-tiket span {
+  font-size: .9rem;
+}
+
+.deskripsi-tiket span:nth-child(1){
+  margin-right: .3rem;
+}
+
+.deskripsi-tiket span:nth-child(2) {
+  margin: 0 .3rem 0 2rem;
+}
+
+.deskripsi-tiket a {
+  color: var(--link);
+}
+
+.body-ticket .horizontal-dotted-line {
+  margin: .5rem 0 1rem;
+}
+
+.price-and-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-and-buy h2 {
+  color: #ff0000;
+}
+
+.price-and-buy a {
+  padding: 1rem 5rem;
+  background-color: #00cf6c;
+  font-size: 1.3rem;
+  border-radius: 1.5rem;
+  color: var(--background);
+}
+
+.price-and-buy a:hover {
+  background-color: #ff7782;
+}
+
 
 /* media queries */
 
