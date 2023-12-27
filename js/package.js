@@ -2,6 +2,9 @@ const tabbedDay = document.querySelector(".tabbed-day");
 const tabList = tabbedDay.querySelector(".ticket");
 const tabButtons = tabList.querySelectorAll(".ticketDay");
 const tabPanels = tabbedDay.querySelectorAll(".infoPaket > div");
+const modal = document.querySelector("#modal");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
 
 tabList.setAttribute("role", "tablist");
 
@@ -47,3 +50,11 @@ function switchTab(newTab) {
   activePanel.removeAttribute("hidden", false);
   newTab.setAttribute("aria-selected", true);
 }
+
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
